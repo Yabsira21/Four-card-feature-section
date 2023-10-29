@@ -1,0 +1,91 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h1:first-of-type {
+  font-weight: 200;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+h1:last-of-type {
+  margin-top: 0;
+}
+
+.subtitle {
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  color: grey;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 60px;
+}
+/* for the containers */
+.container {
+  margin: 0 auto;
+  width: 70%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  width: 31%;
+  border: 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section div {
+  box-shadow: -3px 7px 5px rgb(222, 230, 241);
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  padding: 25px 40px;
+}
+/* for each cards */
+.cyan {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.red {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.orange {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.blue {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.container p {
+  width: 100%;
+  font-size: 16px;
+  color: grey;
+}
+img {
+  float: right;
+  height: 4rem;
+  width: 4rem;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  section {
+    width: 100%;
+  }
+  section div {
+    margin-bottom: 1rem;
+  }
+  .subtitle {
+    width: 80%;
+  }
+}
