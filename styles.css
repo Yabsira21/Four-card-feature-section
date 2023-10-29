@@ -5,7 +5,7 @@ body {
 }
 
 * {
-  transform: scale(0.95);
+  transform: scale(0.96);
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1:last-of-type {
   color: grey;
   font-weight: 400;
   font-size: 17px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 /* for the containers */
 .container {
